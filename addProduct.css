@@ -27,7 +27,7 @@ body {
     max-width: 300px;
 }
 
-.main__table {
+.main__span {
     display: flex;
     flex-direction: column;
     align-items: center;
