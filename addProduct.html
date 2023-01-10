@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addProduct.css">
+    <title>Agregar Producto</title>
+</head>
+
+<body>
+    <header class="header__container">
+        <h1 class="header__title">Añadir Nuevo Producto</h1>
+    </header>
+    <main class="main__container">
+        <form class="main__form">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" placeholder="Digite el nombre" type="text">
+            <label for="precio">Precio</label>
+            <input id="precio" placeholder="Digite el precio" type="number">
+            <label for="cantidad">Cantidad</label>
+            <input id="cantidad" placeholder="Digite la cantidad" type="number">
+            <label>Categoria</label>
+            <select id="categoria">
+                <option value="">Seleccione una opción</option>
+                <option value="herramientas">Herramientas</option>
+                <option value="muebles">Muebles</option>
+                <option value="hogar">Hogar</option>
+                <option value="electrodomesticos">Electrodomésticos</option>
+                <option value="videojuegos">Videojuegos</option>
+                <option value="lcm">Literatura, cine y música</option>
+                <option value="ropa">Ropa</option>
+                <option value="accesorios">Accesorios</option>
+                <option value="familia">Familia</option>
+                <option value="byn">Bebes y niños</option>
+                <option value="otros">Otros</option>
+            </select>
+            <button type="submit">Añadir</button>
+        </form>
+        <table class="main__table">
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Categoria</th>
+            </tr>
+            <tr>
+                <td>Soleado</td>
+                <td>Mayormente soleado</td>
+                <td>Parcialmente nublado</td>
+            </tr>
+            <tr>
+                <td>19°C</td>
+                <td>17°C</td>
+                <td>12°C</td>
+            </tr>
+            <tr>
+                <td>E 13 km/h</td>
+                <td>E 11 km/h</td>
+                <td>S 16 km/h</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer class="footer__container">
+
+    </footer>
+    <script src="addProduct.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.header__title{
+    text-align: center;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    gap: 7px;
+}
+
+.main__form input, .main__form select, .main__form button {
+    max-width: 300px;
+}
+
+.main__table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
